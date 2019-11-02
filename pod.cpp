@@ -4,6 +4,11 @@
 Pod::Pod()
 {}
 
+void Pod::decreaseSpeedBy10()
+{
+    max_speed_ -= 10;
+}
+
 void Pod::setName(std::string name)
 {
     name_ = name;
